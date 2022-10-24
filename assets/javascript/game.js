@@ -56,7 +56,7 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
-    if(availableQuestions.length === 0 || questionsCounter > MAX_QUESTIONS) {
+    if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
         return window.location.assign('/end.html')
@@ -76,7 +76,7 @@ getNewQuestion = () => {
         choice.innerText = currentQuestion['choice' + number]
     })
 
-    availableQuestions.splice(questionsIndex,1)
+    availableQuestions.splice(questionsIndex, 1)
 
     acceptingAnswers = true
 }
@@ -89,8 +89,7 @@ choices.forEach(choice => {
         const selectedChoice = e.target
         const selectedAnswer = selectedChoice.dataset ['number']
 
-        let classtoApply = selectedAnswer == currentQuestion.answer ? 'correct' : 
-        'incorrect'
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
         if(classToApply === 'correct') {
 
@@ -104,5 +103,4 @@ choices.forEach(choice => {
             getNewQuestion()
         }, 1000) 
     })
-
 })
