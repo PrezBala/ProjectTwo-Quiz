@@ -76,7 +76,7 @@ getNewQuestion = () => {
         choice.innerText = currentQuestion['choice' + number]
     })
 
-    availableQuestions.splice(questionsIndex, 1)
+    availableQuestions.splice(questionsIndex,1)
 
     acceptingAnswers = true
 }
@@ -104,3 +104,10 @@ choices.forEach(choice => {
         }, 1000) 
     })
 })
+
+incrementScore = num => {
+        score +=num
+        scoreText.innerText = score
+}
+
+startGame()
