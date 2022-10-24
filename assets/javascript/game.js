@@ -20,7 +20,7 @@ let questions = [
         answer: 3,
     },
     {
-        question: 'What is Ashers surname',
+        question: 'What is Ashers middle name',
         choice1: 'Taco',
         choice2: 'Pinto',
         choice3: 'Daniel',
