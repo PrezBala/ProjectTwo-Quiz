@@ -66,5 +66,36 @@ getNewQuestion = () => {
     progressText.innerText = 'Question ${questionCounter} of ${MAX_QUESTIONS}'
     progressBarFull.style.width = '${(questioooonCounter/MAX_QUESTIONS) * 100}%'
 
-    const 
+    const questionsIndex = Math.floor(Math.random() * availableQuestons.length)
+    currentQuestion = availableQuestions[questionsIndex]
+    questions.innerText = currentQuestion.question
+
+    choices.forEach(choice => {
+
+        const number = choice/dataset ['number']
+        choice.innerText = currentQuestion['choice' + number]
+    })
+
+    availableQuestions.splice(questionsIndex,1)
+
+    acceptingAnswers = true
 }
+
+choices.forEach(choice => {
+    choice.addEventListener('click', e => {
+        if(!acceptingAnswers) return
+
+        acceptingAnswers = false
+        const selectedChoice = e.target
+        const selectedAnswer = selectedChoice.dataset['number']
+
+        let classtoApply = selectedAnswer == currentQuestion.answer ? 'correct' : 
+        'incorrect'
+
+        if(classToApply === 'correct') {
+
+            incrementScore(SCORE_POINTS)
+        }
+    })
+
+})
