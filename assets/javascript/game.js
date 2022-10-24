@@ -49,9 +49,9 @@ const SCORE_POINTS = 100
 const MAX_QUESTIONS = 4
 
 startGame = () => {
-    questionCounter = 0;
+    questionCounter = 0
     score = 0
-    availableQuestions = {...questions}
+    availableQuestions = [...questions]
     getNewQuestions()
 }
 
@@ -64,15 +64,15 @@ getNewQuestion = () => {
 
     questionCounter++
     progressText.innerText = 'Question ${questionCounter} of ${MAX_QUESTIONS}'
-    progressBarFull.style.width = '${(questioooonCounter/MAX_QUESTIONS) * 100}%'
+    progressBarFull.style.width = '${(questionCounter/MAX_QUESTIONS) * 100}%'
 
-    const questionsIndex = Math.floor(Math.random() * availableQuestons.length)
+    const questionsIndex = Math.floor(Math.random() * availableQuestions.length)
     currentQuestion = availableQuestions[questionsIndex]
-    questions.innerText = currentQuestion.question
+    question.innerText = currentQuestion.question
 
     choices.forEach(choice => {
 
-        const number = choice/dataset ['number']
+        const number = choice.dataset ['number']
         choice.innerText = currentQuestion['choice' + number]
     })
 
@@ -87,7 +87,7 @@ choices.forEach(choice => {
 
         acceptingAnswers = false
         const selectedChoice = e.target
-        const selectedAnswer = selectedChoice.dataset['number']
+        const selectedAnswer = selectedChoice.dataset ['number']
 
         let classtoApply = selectedAnswer == currentQuestion.answer ? 'correct' : 
         'incorrect'
@@ -96,6 +96,13 @@ choices.forEach(choice => {
 
             incrementScore(SCORE_POINTS)
         }
+
+        selectedChoice.parentElement.classList.add(classToApply)
+        setTimeout(() => {
+
+            selectedChoice.parentElement.classList.remove(classToApply)
+            getNewQuestion()
+        }, 1000) 
     })
 
 })
