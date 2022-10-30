@@ -6,18 +6,21 @@
   <title>Movie Quiz</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">  
-
+<script>
+    var bleep = new Audio ();
+    bleep.src = "assets/audio/btnsound.mp3";
+</script>
 </head>
 
 <body>
     <div class="container">
         <div id="home" class="flex-column flex-center">
     <h1>Let's Go!</h1>
-    <a href="/game.html" class="btn">Play</a>
-    <a href="/highscores.html" id="highscore-btn" class="btn">Highscores 
+    <a href="/game.html" onmousedown="bleep.play()" class="btn">Play</a>
+    <a href="/highscores.html" id="highscore-btn" onmousedown="bleep.play()" class="btn">Highscores 
     <i class="fas fa-crown"></i></a>
 
-    <button class="rules-btn" id="rules-btn">Rules</button>
+    <button class="rules-btn"  onmousedown="bleep.play()" id="rules-btn">Rules</button>
     <div id="modal" class="modal">
         <div class="modal-header">
             <div class="title">Rules</div>
