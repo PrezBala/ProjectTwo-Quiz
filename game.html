@@ -12,7 +12,6 @@
 </head>
 
 <body>
-
     <div class="container">
         <div id="game" class="justify-center flex-column">
             <div id="hud">
@@ -25,32 +24,7 @@
                     </div>
                 </div>
 
-                <div class="music-container" id="music-container">
-                    <div class="music-info">
-                      <h4 id="title"></h4>
-                      <div class="progress-container" id="progress-container">
-                        <div class="progress" id="progress"></div>
-                      </div>
-                    </div>
               
-                    <audio src="assets/audio/avengers.mp3" id="audio"></audio>
-              
-                    <div class="img-container">
-                      <img src="assets/images/avengerlogo.jpg" alt="music-cover" id="cover" />
-                    </div>
-                    <div class="navigation">
-                      <button id="prev" class="action-btn">
-                        <i class="fas fa-backward"></i>
-                      </button>
-                      <button id="play" class="action-btn action-btn-big">
-                        <i class="fas fa-play"></i>
-                      </button>
-                      <button id="next" class="action-btn">
-                        <i class="fas fa-forward"></i>
-                      </button>
-                    </div>
-                  </div>
-
                 <div class="hud-item">
                     <p class="hud-prefix">
                         Score
@@ -58,8 +32,11 @@
                     <h1 class="hud-main-text" id="score">
                         0
                     </h1>
+                    
                 </div>
             </div>
+
+
             <h1 id="question">What is the answer to this question?</h1>
             <div class="choice-container">
                 <p class="choice-prefix">A</p>
@@ -79,6 +56,34 @@
             </div>
         </div>
         </div>
+
+        <div class="music-container" id="music-container">
+            <div class="music-info">
+              <h4 id="title"></h4>
+              <div class="progress-container" id="progress-container">
+                <div class="progress" id="progress"></div>
+              </div>
+            </div>
+      
+            <audio src="assets/audio/avengers.mp3" id="audio"></audio>
+      
+            <div class="img-container">
+              <img src="assets/images/spider.png" alt="music-cover" id="cover" />
+            </div>
+            <div class="navigation">
+              <button id="prev" class="action-btn">
+                <i class="fas fa-backward"></i>
+              </button>
+              <button id="play" class="action-btn action-btn-big">
+                <i class="fas fa-play"></i>
+              </button>
+              <button id="next" class="action-btn">
+                <i class="fas fa-forward"></i>
+              </button>
+            </div>
+          </div>
+
+
         <script src="assets/javascript/game.js"></script>
         <script src="assets/javascript/audio.js"></script>
 
