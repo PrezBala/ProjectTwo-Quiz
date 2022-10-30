@@ -61,6 +61,7 @@ flex-direction: column;
 
 .rulesImg {
     width: 100%;
+    
  
  }
 
@@ -98,8 +99,8 @@ flex-direction: column;
         border: 1px solid black;
         border-radius: 10px;
         z-index: 10;
-        background-color: rgb(250, 250, 250);
-        color: rgb(93, 155, 206);
+        background-color: rgb(255, 255, 255);
+        color: rgb(255, 0, 0);
         width: 500px;
         max-width: 60%;
      }
