@@ -23,6 +23,12 @@ h2 {
     margin-bottom: 4rem;
 }
 
+h3 {
+    font-size: 1rem;
+    font-style: arial;
+    color: blue
+}
+
 .container {
     width: 100vw;
     height: 100vh;
