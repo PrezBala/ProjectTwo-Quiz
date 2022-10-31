@@ -43,10 +43,60 @@ let questions = [
         choice4: 'Tacoandpizzastan',
         answer: 1,
     },
+    {
+        question: 'Who is the Winter Soldier?',
+        choice1: 'Bucky',
+        choice2: 'Bruce',
+        choice3: 'Natasha',
+        choice4: 'Prasena',
+        answer: 1,
+    },
+    {
+        question: 'Stan Lee made his final cameo in which Marvel movie?',
+        choice1: 'Spiderman No Way Home',
+        choice2: 'Avengers: Endgame',
+        choice3: 'Black Panther',
+        choice4: 'Iron Man 3',
+        answer: 2,
+    },
+    {
+        question: 'Whos the villain in Thor: Love and Thunder?',
+        choice1: 'Surtur',
+        choice2: 'Thanos',
+        choice3: 'Adam',
+        choice4: 'Gorr the God Butcher',
+        answer: 4,
+    },
+    {
+        question: 'Who is the firstborn child of Odin?',
+        choice1: 'Loki',
+        choice2: 'Hela',
+        choice3: 'Thor',
+        choice4: 'Hank',
+        answer: 2,
+    }, 
+    {
+        question: 'What are the names of Wandas twins?',
+        choice1: 'Violet and Scarlett',
+        choice2: 'Thorim and Samson',
+        choice3: 'Billy and Tommy',
+        choice4: 'Jack and Jill',
+        answer: 3,
+    }, 
+    {
+        question: 'What does TVA stand for?',
+        choice1: 'Time Villains Association',
+        choice2: 'Time Variance Authority',
+        choice3: 'Thunder Victims Abandoned',
+        choice4: 'Thunder Variance Aberration',
+        answer: 2,
+    }, 
+
+
 ]
 questionCounter
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 10
 
 startGame = () => {
     questionCounter = 0
