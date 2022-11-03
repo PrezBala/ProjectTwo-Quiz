@@ -11,33 +11,6 @@
 
 <body>
 
-    <div class="music-container" id="music-container">
-        <div class="music-info">
-          <h4 id="title"></h4>
-          <div class="progress-container" id="progress-container">
-            <div class="progress" id="progress"></div>
-          </div>
-        </div>
-  
-        <audio src="assets/audio/avengers.mp3" id="audio"></audio>
-  
-        <div class="img-container">
-          <img src="assets/images/spider.png" alt="music-cover" id="cover" />
-        </div>
-        <div class="navigation">
-          <button id="prev" class="action-btn">
-            <i class="fas fa-backward"></i>
-          </button>
-          <button id="play" class="action-btn action-btn-big">
-            <i class="fas fa-play"></i>
-          </button>
-          <button id="next" class="action-btn">
-            <i class="fas fa-forward"></i>
-          </button>
-          <h3 style="font-family:verdana;">Why not listen to some of your old time favourite super hero themes while playing?</h3>
-        </div>
-      </div>
-      
     <div class="container">
         <div id="home" class="flex-column flex-center">
     <h1>MARVEL Studios Quiz!</h1>
@@ -62,6 +35,22 @@
             <p>Rules</p>
         </div>
     </div>
+    <audio controls id="audioval">
+        <source src="assets/audio/intro.mp3" type="audio/mp3">
+      </audio>
+      <script type="text/javascript">
+        function Play()
+        {
+          var myAudio = document.getElementById("audioval");
+          if(myAudio.paused) {
+              myAudio.play();
+          }
+          else {
+             myAudio.pause();
+          }
+        }
+      </script>
+
     <div id="overlay"></div>
         </div>
     </div>

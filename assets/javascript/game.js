@@ -25,7 +25,7 @@ let questions = [
         choice2: 'Neurosurgeon',
         choice3: 'Anaesthetist',
         choice4: 'Psychiatrist',
-        answer: 3,
+        answer: 2,
     },
     {
         question: 'Who was able to pick up Thor’s hammer in Endgame?',
