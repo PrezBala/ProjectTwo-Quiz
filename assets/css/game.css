@@ -73,6 +73,7 @@ body {
     .choice-container{
         min-width:40rem;
     }
+    
 }
 
 @media screen and (max-width: 500px){

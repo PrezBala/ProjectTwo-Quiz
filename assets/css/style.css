@@ -86,7 +86,6 @@ flex-direction: column;
 .rulesImg {
     width: 100%;
     margin-bottom: 5rem;
-    
  }
 
 .rules-btn {
@@ -255,4 +254,35 @@ input::placeholder {
     margin-left: 1rem;
     font-size: 2rem;
     color: rgb(28, 26, 26)
+}
+
+
+
+@media screen and (max-width: 768px){
+    .modal{
+        max-width:20rem;
+    }
+
+    .btn{
+        max-width:15rem;
+    }
+    .rules-btn{
+        max-width:15rem;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .modal{
+        max-width:20rem;
+
+    }
+    .btn{
+        max-width:15rem;
+    }
+
+    .rules-btn{
+        max-width:15rem;
+    }
+
+
 }
