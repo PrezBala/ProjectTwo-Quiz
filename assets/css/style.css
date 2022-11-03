@@ -85,8 +85,8 @@ flex-direction: column;
 
 .rulesImg {
     width: 100%;
+    margin-bottom: 5rem;
     
- 
  }
 
 .rules-btn {
@@ -126,7 +126,7 @@ flex-direction: column;
         background-color: rgb(255, 255, 255);
         color: rgb(255, 0, 0);
         width: 500px;
-        max-width: 60%;
+        max-width: 50%;
      }
 
 .modal.active {
