@@ -95,7 +95,7 @@ body {
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 390px) and (max-width: 810px){
 
     h1 {
         font-size: 1rem;
@@ -103,7 +103,7 @@ body {
 
     .choice-container{
         min-width:30rem;
-        transform: scale(0.7);
+        transform: scale(0.4);
     }
 
     .choice-container:hover {
