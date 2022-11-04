@@ -69,7 +69,7 @@ body {
     width: 0%;
 }
 
-@media screen and (min-width: 820px) and (max-width: 1180px){
+@media screen and (min-width: 820px) and (max-width: 1780px){
 
     h1 {
         font-size: 4rem;
@@ -98,12 +98,13 @@ body {
 @media screen and (min-width: 390px) and (max-width: 810px){
 
     h1 {
-        font-size: 1rem;
+        font-size: 3rem;
     }
 
     .choice-container{
         min-width:30rem;
-        transform: scale(0.4);
+        transform: scale(0.7);
+        font-size: 2rem;
     }
 
     .choice-container:hover {
