@@ -69,6 +69,10 @@ body {
     width: 0%;
 }
 
+#question{
+    font-size: 2rem;
+}
+
 @media screen and (min-width: 820px) and (max-width: 1780px){
 
     .choice-container{
@@ -140,26 +144,23 @@ body {
 
 @media screen and (min-width: 320px) and (max-width: 480px){
 
+    h1{
 
-    h1 {
-        font-size: 1rem;
+        font-size: 2.4rem;
+
     }
 
     .choice-container{
-        min-width:2rem;
-        transform: scale(0.6);
-        font-size: 1.5rem;
+        min-width: 1rem;
+        font-size: 1rem;
+        transform: scale(0.7);
     }
 
-    .choice-container:hover {
-        transform: none;
-        transform: transform 5ms;
-    }
 
-    #progressText{
-        font-size: .5rem;
+    #question{
+        font-size: 1.2rem;
+        margin-left: 4.2rem;
     }
-
 
   }
   

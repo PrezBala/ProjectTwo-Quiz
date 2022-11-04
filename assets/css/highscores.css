@@ -14,7 +14,7 @@ body {
     margin-bottom: 0.5rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 802px) and (max-width: 1280px){
 
     .high-score{    
         font-size: 2.2rem;
@@ -22,14 +22,14 @@ body {
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (min-width: 390px) and (max-width: 810px){
 
     .high-score{    
         font-size: 2.2rem;
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 320px) and (max-width: 480px){
 
     .high-score{    
         font-size: 1rem;
