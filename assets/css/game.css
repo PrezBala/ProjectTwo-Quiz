@@ -138,3 +138,28 @@ body {
 
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .choice-container{
+        min-width:2rem;
+        transform: scale(0.6);
+        font-size: 1.5rem;
+    }
+
+    .choice-container:hover {
+        transform: none;
+        transform: transform 5ms;
+    }
+
+    #progressText{
+        font-size: .5rem;
+    }
+
+
+  }
+  

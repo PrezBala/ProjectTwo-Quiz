@@ -125,13 +125,7 @@
   transition: width 0.1s linear;
 }
 
-@media screen and (min-width: 820px) and (max-width: 1180px){
 
-  .img-container {
-    transform: scale(0.5);
-  }
-
-}
 
 @media screen and (min-width: 802px) and (max-width: 1280px){
 
@@ -155,6 +149,20 @@
 
   .music-container {
     transform: scale(0.5);
+  }
+  
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+
+  .img-container {
+    transform: scale(0.4);
+  }
+
+  .music-container {
+    transform: scale(0.3);
   }
   
 
