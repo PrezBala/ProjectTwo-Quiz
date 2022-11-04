@@ -296,7 +296,12 @@ input::placeholder {
     .rules-btn{
         max-width:15rem;
     }
-
+    body {
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; background-size: cover;
+        background-image: url("../images/marvelwallpaper.jpg");
+    }
 
 }
 
@@ -317,7 +322,12 @@ input::placeholder {
     .rules-btn{
         max-width:20rem;
     }
-
+    body {
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; background-size: cover;
+        background-image: url("../images/marvelwallpaper.jpg");
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px){
@@ -349,6 +359,11 @@ input::placeholder {
         max-width:14rem;
 
     }
-
+    body {
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; background-size: cover;
+        background-image: url("../images/marvelwallpaper.jpg");
+    }
 
 }
