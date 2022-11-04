@@ -258,7 +258,7 @@ input::placeholder {
 
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 820px){
     .modal{
         max-width:20rem;
     }
@@ -269,6 +269,14 @@ input::placeholder {
     .rules-btn{
         max-width:15rem;
     }
+
+    body {
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; background-size: cover;
+        background-image: url("../images/marvelwallpaper.jpg");
+    }
+
 }
 
 @media screen and (max-width: 500px){
