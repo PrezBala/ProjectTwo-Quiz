@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+        		<!-- Begin Intro and buttons section -->
     <div class="container">
         <div id="home" class="flex-column flex-center">
     <h1>MARVEL Studios Quiz!</h1>
@@ -24,6 +24,9 @@
             <div class="title">Rules</div>
             <button id="close-btn-rules" class="close-btn">&times;</button>
         </div>
+                		<!-- End Intro and buttons section -->
+
+                            		<!-- Begin Rules section -->
         <div class="rules">
             <img class="rulesImg" src="assets/images/rules.jpg" alt="Rules">
 
@@ -34,9 +37,16 @@
             <p style="color:rgb(0, 0, 0);">The MCU has been running for 10 years and has produced 18 movies. There are plenty of characters to keep up with, but luckily we've made a quiz to test your knowledge.</p>
         </div>
     </div>
+    
+                            		<!-- End Rules section -->
+
+                                                            		<!-- Begin Audio source section -->
     <audio controls id="audioval">
         <source src="assets/audio/intro.mp3" type="audio/mp3">
       </audio>
+                                                                  		<!-- End Audio source section -->
+
+                                                                  		<!-- Begin audio / javascript section -->                                                                
       <script type="text/javascript">
         function Play()
         {
@@ -49,12 +59,13 @@
           }
         }
       </script>
-      
+                                                                        		<!-- End audio / javascript section -->       
     <div id="overlay"></div>
         </div>
     </div>
-
+                             		<!-- Begin script SRC section --> 
     <script src="assets/javascript/rulesmodal.js"></script>
+                                 		<!-- End script SRC section --> 
 
 </body>
 </html>

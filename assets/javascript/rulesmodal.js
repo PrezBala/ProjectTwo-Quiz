@@ -1,3 +1,5 @@
+/* rules modal start*/
+
 let openModalButtons = document.getElementById('rules-btn');
 let closeModalButtons = document.getElementById('close-btn-rules');
 let overlay = document.getElementById('overlay');
@@ -24,4 +26,4 @@ function closeModal(modal) {
     overlay.classList.remove('active');
 }
 
-
+/* rules modal end*/

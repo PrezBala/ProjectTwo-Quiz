@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* music player including rotating image start */
+
 .music-container {
   background-color: #fff;
   border-radius: 15px;
@@ -125,7 +127,9 @@
   transition: width 0.1s linear;
 }
 
+/* music player including rotating image end */
 
+/* Media screen for different devices start*/
 
 @media screen and (min-width: 802px) and (max-width: 1280px){
 
@@ -167,3 +171,4 @@
   
 
 }
+/* Media screen for different devices end*/

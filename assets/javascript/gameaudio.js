@@ -1,3 +1,4 @@
+/* set const values start*/
 const musicContainer = document.getElementById('music-container');
 const playBtn = document.getElementById('play');
 const prevBtn = document.getElementById('prev');
@@ -10,14 +11,15 @@ const title = document.getElementById('title');
 const cover = document.getElementById('cover');
 const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
+/* set const values end*/
 
-// Song titles
+/* song titles*/
 const songs = ['avengers', 'ironman', 'spiderman'];
 
-// Keep track of song
+/* keep track of songs*/
 let songIndex = 2;
 
-// Initially load song details into DOM
+/* Initially load song details into DOM */
 loadSong(songs[songIndex]);
 
 // Update song details

@@ -5,6 +5,9 @@
     background-color: #cccccc;
 }
 
+
+/* define font/sizes etc characteristics start*/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -27,13 +30,6 @@ h1 {
     -1px  1px 0 #000,
     -1px  0   0 #000;
 }
-    /*
-    text-shadow:
--.5px 5px 0px red,
-1px 0px 0px red,
-3px -1px 0px red,
-5px 1px 0px red;color: rgb(255, 255, 255);
- */
 
 h2 {
     font-size: 4.2rem;
@@ -45,6 +41,10 @@ h3 {
     font-style: arial;
     color: blue
 }
+
+/* define font characteristics end*/
+
+/* container dimensions / characteristics start*/
 
 .container {
     width: 100vw;
@@ -79,6 +79,10 @@ flex-direction: column;
     display:none;
 }
 
+/* container dimensions / characteristics end*/
+
+/* rules start*/
+
 .rules {
     padding: 90px 15px 20px;
  }
@@ -110,13 +114,14 @@ flex-direction: column;
         color: hsl(0, 0%, 100%);
      }
        
+/* rules end*/
+
+/* Modal for pop up rule box start*/
 
 .modal {
         position: fixed;
-        /* Center the text */
         top: 50%;
         left: 50%;
-        /* The top left corner is center, to center the whole text we need transform */
         transform: translate(-50%, -50%);
         display: none;
         border: 1px solid black;
@@ -171,6 +176,10 @@ flex-direction: column;
         opacity: 1;
      }
 
+/* Modal for pop up rule box end*/
+
+/* button start*/
+
 .btn {
 font-size: 2.4rem;
 padding: 2rem 0;
@@ -211,6 +220,8 @@ transform: none;
     font-size: 2.5rem;
     margin-left: 1rem;
  }
+
+ /* button end*/
 
  /* End Page CSS */
 .end-form-container {
@@ -255,9 +266,9 @@ input::placeholder {
     font-size: 2rem;
     color: rgb(28, 26, 26)
 }
+ /* End Page CSS */
 
-
-
+/* Media screen for different devices start*/
 @media screen and (min-width: 820px) and (max-width: 1180px){
     .modal{
         max-width:20rem;
@@ -340,10 +351,8 @@ input::placeholder {
 
     .modal{
         position: fixed;
-        /* Center the text */
         top: 50%;
         left: 50%;
-        /* The top left corner is center, to center the whole text we need transform */
         transform: translate(-50%, -35% );
         z-index: 10;
         max-width:15rem;
@@ -367,3 +376,4 @@ input::placeholder {
     }
 
 }
+/* Media screen for different devices end*/

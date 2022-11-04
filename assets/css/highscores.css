@@ -2,6 +2,8 @@ body {
     color: #fff;
 }
 
+/* Highscore list start*/
+
 #highScoresList {
     list-style: none;
     margin-bottom: 4rem;
@@ -13,6 +15,10 @@ body {
     font-size: 2.8rem;
     margin-bottom: 0.5rem;
 }
+
+/* Highscore list end*/
+
+/* Media screen for different devices start*/
 
 @media screen and (min-width: 802px) and (max-width: 1280px){
 
@@ -36,3 +42,5 @@ body {
     }
 
 }
+
+/* Media screen for different devices end*/
