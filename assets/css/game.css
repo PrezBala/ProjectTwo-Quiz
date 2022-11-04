@@ -70,14 +70,23 @@ body {
 }
 
 @media screen and (max-width: 768px){
-    .choice-container{
-        min-width:40rem;
+
+    h1 {
+        font-size: 1rem;
     }
+
+    .choice-container{
+        min-width:30rem;
+        transform: scale(0.7);
+    }
+
+    .choice-container:hover {
+        transform: none;
+        transform: transform 100ms;
+    }
+
+    .question{
+font-size: 2px;
     
 }
-
-@media screen and (max-width: 500px){
-    .choice-container{
-        min-width:10rem;
-    }
 }
