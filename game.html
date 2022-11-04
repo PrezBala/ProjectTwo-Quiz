@@ -1,103 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiz Page</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/game.css">
-  <link rel="stylesheet" href="assets/css/mp3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">  
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Quiz Page</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/css/game.css" />
+		<link rel="stylesheet" href="assets/css/mp3.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+	</head>
 
-</head>
+	<body>
+		<!-- Begin Header section -->
+		<div class="container">
+			<div id="game" class="justify-center flex-column">
+				<div id="hud">
+					<div class="hud-item">
+						<p id="progressText" class="hud-prefix">
+							Question
+						</p>
 
-<body>
-      		<!-- Begin Header section -->
-    <div class="container">
-      
-        <div id="game" class="justify-center flex-column">
-            <div id="hud">
-                <div class="hud-item">
-                  
-                    <p id="progressText" class="hud-prefix">
-                        Question
-                    </p>
-                    
-                    <div id="progressBar">
-                        <div id="progressBarFull"></div>
+						<div id="progressBar">
+							<div id="progressBarFull"></div>
+						</div>
+					</div>
 
-              
-                    </div>
-                    
-                </div>
+					<div class="hud-item">
+						<p class="hud-prefix">
+							Score
+						</p>
+						<h1 class="hud-main-text" id="score">
+							0
+						</h1>
+					</div>
+				</div>
+				<!-- End Header section -->
+				<!-- Begin Music container section -->
+				<div class="music-container" id="music-container">
+					<div class="music-info">
+						<h4 id="title"></h4>
+						<div class="progress-container" id="progress-container">
+							<div class="progress" id="progress"></div>
+						</div>
+					</div>
 
+					<audio src="assets/audio/avengers.mp3" id="audio"></audio>
 
-                <div class="hud-item">
-                    <p class="hud-prefix">
-                        Score
-                    </p>
-                    <h1 class="hud-main-text" id="score">
-                        0
-                    </h1>
-                    
-                </div>
-            </div>
-                		<!-- End Header section -->
-                        		<!-- Begin Music container section -->
-            <div class="music-container" id="music-container">
-              <div class="music-info">
-                <h4 id="title"></h4>
-                <div class="progress-container" id="progress-container">
-                  <div class="progress" id="progress"></div>
-                </div>
-              </div>
-        
-              <audio src="assets/audio/avengers.mp3" id="audio"></audio>
-        
-              <div class="img-container">
-                <img src="assets/images/spider.png" alt="music-cover" id="cover" />
-              </div>
-              <div class="navigation">
-                <button id="prev" class="action-btn">
-                  <i class="fas fa-backward"></i>
-                </button>
-                <button id="play" class="action-btn action-btn-big">
-                  <i class="fas fa-play"></i>
-                </button>
-                <button id="next" class="action-btn">
-                  <i class="fas fa-forward"></i>
-                </button>
-                <h3 style="font-family:verdana;">Why not listen to some of your old time favourite super hero themes while playing?</h3>
-              </div>
-            </div>
-                        		<!-- End Music container section -->
-                                                   		<!-- Begin question section --> 
-            <h1 id="question">What is the answer to this question?</h1>
-            <div class="choice-container">
-                <p class="choice-prefix">A</p>
-                <p class="choice-text" data-number="1">Choice</p>
-            </div>
-            <div class="choice-container">
-                <p class="choice-prefix">B</p>
-                <p class="choice-text" data-number="2">Choice 2</p>
-            </div>
-            <div class="choice-container">
-                <p class="choice-prefix">C</p>
-                <p class="choice-text" data-number="3">Choice 3</p>
-            </div>
-            <div class="choice-container">
-                <p class="choice-prefix">D</p>
-                <p class="choice-text" data-number="4">Choice 4</p>
-            </div>
-            
-        </div>
-
-        
-        </div>
-                                                   		<!-- End question section --> 
-               		<!-- Begin script SRC section --> 
-        <script src="assets/javascript/game.js"></script>
-        <script src="assets/javascript/gameaudio.js"></script>
-               		<!-- End script SRC section --> 
-</body>
+					<div class="img-container">
+						<img src="assets/images/spider.png" alt="music-cover" id="cover" />
+					</div>
+					<div class="navigation">
+						<button id="prev" class="action-btn">
+							<i class="fas fa-backward"></i>
+						</button>
+						<button id="play" class="action-btn action-btn-big">
+							<i class="fas fa-play"></i>
+						</button>
+						<button id="next" class="action-btn">
+							<i class="fas fa-forward"></i>
+						</button>
+						<h3 style="font-family:verdana;">Why not listen to some of your old time favourite super hero themes while playing?</h3>
+					</div>
+				</div>
+				<!-- End Music container section -->
+				<!-- Begin question section -->
+				<h1 id="question">What is the answer to this question?</h1>
+				<div class="choice-container">
+					<p class="choice-prefix">A</p>
+					<p class="choice-text" data-number="1">Choice</p>
+				</div>
+				<div class="choice-container">
+					<p class="choice-prefix">B</p>
+					<p class="choice-text" data-number="2">Choice 2</p>
+				</div>
+				<div class="choice-container">
+					<p class="choice-prefix">C</p>
+					<p class="choice-text" data-number="3">Choice 3</p>
+				</div>
+				<div class="choice-container">
+					<p class="choice-prefix">D</p>
+					<p class="choice-text" data-number="4">Choice 4</p>
+				</div>
+			</div>
+		</div>
+		<!-- End question section -->
+		<!-- Begin script SRC section -->
+		<script src="assets/javascript/game.js"></script>
+		<script src="assets/javascript/gameaudio.js"></script>
+		<!-- End script SRC section -->
+	</body>
 </html>

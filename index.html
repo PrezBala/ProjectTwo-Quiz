@@ -1,71 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Movie Quiz</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">  
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Movie Quiz</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+	</head>
 
-</head>
+	<body>
+		<!-- Begin Intro and buttons section -->
+		<div class="container">
+			<div id="home" class="flex-column flex-center">
+				<h1>MARVEL Studios Quiz!</h1>
+				<a href="/game.html" onmousedown="bleep.play()" class="btn">Play</a>
+				<a href="/highscores.html" id="highscore-btn" onmousedown="bleep.play()" class="btn">Highscores <i class="fas fa-crown"></i></a>
 
-<body>
-        		<!-- Begin Intro and buttons section -->
-    <div class="container">
-        <div id="home" class="flex-column flex-center">
-    <h1>MARVEL Studios Quiz!</h1>
-    <a href="/game.html" onmousedown="bleep.play()" class="btn">Play</a>
-    <a href="/highscores.html" id="highscore-btn" onmousedown="bleep.play()" class="btn">Highscores 
-    <i class="fas fa-crown"></i></a>
+				<button class="rules-btn" onmousedown="bleep.play()" id="rules-btn">Rules</button>
+				<div id="modal" class="modal">
+					<div class="modal-header">
+						<div class="title">Rules</div>
+						<button id="close-btn-rules" class="close-btn">&times;</button>
+					</div>
+					<!-- End Intro and buttons section -->
 
-    <button class="rules-btn"  onmousedown="bleep.play()" id="rules-btn">Rules</button>
-    <div id="modal" class="modal">
-        <div class="modal-header">
-            <div class="title">Rules</div>
-            <button id="close-btn-rules" class="close-btn">&times;</button>
-        </div>
-                		<!-- End Intro and buttons section -->
+					<!-- Begin Rules section -->
+					<div class="rules">
+						<img class="rulesImg" src="assets/images/rules.jpg" alt="Rules" />
 
-                            		<!-- Begin Rules section -->
-        <div class="rules">
-            <img class="rulesImg" src="assets/images/rules.jpg" alt="Rules">
+						<p style="color:rgb(0, 0, 0);">How well do you know the Marvel Cinematic Universe? If you're a fan of the Marvel Cinematic Universe, then you've probably seen all of the movies.</p>
+						<br />
+						<p style="color:rgb(0, 0, 0);">but how well do you know them? Take our quiz to find out!The Marvel Cinematic Universe is a collection of movies that have been created by Marvel Studios</p>
+						<br />
+						<p style="color:rgb(0, 0, 0);">The MCU has been running for 10 years and has produced 18 movies. There are plenty of characters to keep up with, but luckily we've made a quiz to test your knowledge.</p>
+					</div>
+				</div>
 
-            <p style="color:rgb(0, 0, 0);">How well do you know the Marvel Cinematic Universe? If you're a fan of the Marvel Cinematic Universe, then you've probably seen all of the movies.</p>
-            <br>
-            <p style="color:rgb(0, 0, 0);">but how well do you know them? Take our quiz to find out!The Marvel Cinematic Universe is a collection of movies that have been created by Marvel Studios</p>
-            <br>
-            <p style="color:rgb(0, 0, 0);">The MCU has been running for 10 years and has produced 18 movies. There are plenty of characters to keep up with, but luckily we've made a quiz to test your knowledge.</p>
-        </div>
-    </div>
-    
-                            		<!-- End Rules section -->
+				<!-- End Rules section -->
 
-                                                            		<!-- Begin Audio source section -->
-    <audio controls id="audioval">
-        <source src="assets/audio/intro.mp3" type="audio/mp3">
-      </audio>
-                                                                  		<!-- End Audio source section -->
+				<!-- Begin Audio source section -->
+				<audio controls id="audioval">
+					<source src="assets/audio/intro.mp3" type="audio/mp3" />
+				</audio>
+				<!-- End Audio source section -->
 
-                                                                  		<!-- Begin audio / javascript section -->                                                                
-      <script type="text/javascript">
-        function Play()
-        {
-          var myAudio = document.getElementById("audioval");
-          if(myAudio.paused) {
-              myAudio.play();
-          }
-          else {
-             myAudio.pause();
-          }
-        }
-      </script>
-                                                                        		<!-- End audio / javascript section -->       
-    <div id="overlay"></div>
-        </div>
-    </div>
-                             		<!-- Begin script SRC section --> 
-    <script src="assets/javascript/rulesmodal.js"></script>
-                                 		<!-- End script SRC section --> 
-
-</body>
+				<!-- Begin audio / javascript section -->
+				<script type="text/javascript">
+					function Play()
+					{
+					  var myAudio = document.getElementById("audioval");
+					  if(myAudio.paused) {
+					      myAudio.play();
+					  }
+					  else {
+					     myAudio.pause();
+					  }
+					}
+				</script>
+				<!-- End audio / javascript section -->
+				<div id="overlay"></div>
+			</div>
+		</div>
+		<!-- Begin script SRC section -->
+		<script src="assets/javascript/rulesmodal.js"></script>
+		<!-- End script SRC section -->
+	</body>
 </html>
