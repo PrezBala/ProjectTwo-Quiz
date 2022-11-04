@@ -69,6 +69,32 @@ body {
     width: 0%;
 }
 
+@media screen and (min-width: 820px) and (max-width: 1180px){
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .choice-container{
+        min-width:30rem;
+        transform: scale(0.7);
+    }
+
+    .choice-container:hover {
+        transform: none;
+        transform: transform 15ms;
+    }
+
+    body {
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; background-size: cover;
+        background-image: url("../images/marvelwallpaper.jpg");
+    }
+
+}
+
+
 @media screen and (max-width: 768px){
 
     h1 {
@@ -82,11 +108,8 @@ body {
 
     .choice-container:hover {
         transform: none;
-        transform: transform 100ms;
+        transform: transform 15ms;
     }
 
-    .question{
-font-size: 2px;
-    
 }
-}
+
