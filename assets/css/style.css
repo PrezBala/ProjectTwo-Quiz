@@ -321,21 +321,33 @@ input::placeholder {
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px){
-
+    .container {
+        transform: scale(0.8);
+    }
     h1{    
         font-size: 1.2rem;
     }
 
     .modal{
-        max-width:4rem;
+        position: fixed;
+        /* Center the text */
+        top: 50%;
+        left: 50%;
+        /* The top left corner is center, to center the whole text we need transform */
+        transform: translate(-50%, -35% );
+        z-index: 10;
+        max-width:15rem;
 
     }
     .btn{
-        max-width:4rem;
+        max-width:14rem;
+
     }
+    
 
     .rules-btn{
-        max-width:4rem;
+        max-width:14rem;
+
     }
 
 
