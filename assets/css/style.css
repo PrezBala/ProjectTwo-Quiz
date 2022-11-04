@@ -272,8 +272,13 @@ input::placeholder {
 }
 
 @media screen and (max-width: 500px){
+
+    h1{    
+        font-size: 3rem;
+    }
+
     .modal{
-        max-width:20rem;
+        max-width:25rem;
 
     }
     .btn{
@@ -282,6 +287,27 @@ input::placeholder {
 
     .rules-btn{
         max-width:15rem;
+    }
+
+
+}
+
+@media screen and (max-width: 320px){
+
+    h1{    
+        font-size: 1.2rem;
+    }
+
+    .modal{
+        max-width:10rem;
+
+    }
+    .btn{
+        max-width:10rem;
+    }
+
+    .rules-btn{
+        max-width:10rem;
     }
 
 
