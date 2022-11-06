@@ -76,35 +76,23 @@ Mobile phone wire frame also shown below
 ### Common Elements
 The common elements across all pages will be the background theme (Avengers - Iron man vs Captain America) and also the colour theme (Red,Blue and Green)
 
-+ The Header- This sections appears across the top on all 3 pages and also contains a samurai helmet logo on the left. When selecting the helmet the user will return to the top of the homepage. The navigation menu is also positioned on the right. Both the logo and menu will respond to the screen sizes used. The navigation menu on certain phones will use a 'burger' style selection menu.
++ The Wallpaper - I decided to use the below wallpaper across all screens in this quiz site. Due to Marvel movie Civil War being one of the highest grossing movies and also a personal favourite. I find the image very strike with the traditional Marvel colours making it stand out.
 
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/header1.jpg">
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/marvelwallpaper.jpg">
 
-+ The Footer - The section appears across the bottom on all 3 pages. There is a contact us section on the left with a button that will take the user directly to the contact us page. In the centre of the footer is the social links for Facebook,Twitter,Googlemail and Twitter and on the right is a samurai logo for aesthetics.
-
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/footer1.jpg">
 
 ### Home Page
-This is the main landing page which the user will be first presented with. By using a eye catching image and colours i hope to keep users interested in viewing the site. This page contains the following elements below:
+This is the main landing page which the user will be first presented with, with big bold texts showcasing what the main function of the site is. By using a eye catching wallpaper and the Avengers themed colours i hope to keep users interested in viewing the site. This page contains the following elements below:
 
-+ Hero Image - The image spans across the full width of the page and very eye catching showing a samurai looking towards the direction of a cherry tree. I've also added text over the central part of the image with the name of the site 'Emperors Shogun' with smaller text 'and the samurai guards'.
-This is in a font style which is in a japanese calligraphy style.
++ Home Screen - The image of 2 of the leading characters in the movie franchise in head to head combat is a very striking image for the user, i've also used the 3 colours signified for the Marvel franchise Blue,Red and Green which relates to the big 3 characters in the movies Captain America, Iron man and the Incredible Hulk.
 
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/mainimage1.jpg">
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/homescreen.png">
 
-+ Descriptive text - This section is beneath the main hero image and highlights on three points. 'Who were the Shogun and the Samurai" the 'Samurai Armor' and the 'Samurai Weapon'. I've added text detailing each of the 3 sections and also added relevant imagery beside the texts. 
++ Audio Player - I've added a audio player beneath the 'Rules' button. When play is selected the Marvel intro theme will commence playing and the user can decide to pause or continue. I wanted to ensure that the music does not automatically play when the user first loads the site as i rather the user has control on this function (in case user is in a library or just doesn't want to listen to music!) 
 
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/text1.jpg">
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/miniplayer.png">
 
-+ Secondary Hero Image - This image is added for aesthetic reasons to make the website more visually appealing and also to show an image of what the website is based on, to keep the user further interested.
-
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/mainimage2.jpg">
-
-+ Additional Descriptive text - This is the final descriptive text on this specific page, answering a question which is quite common for this part of Japanese history 'What is the difference between a Shogun and a Samurai' I've also added an image on the right side of the text for the page aesthetics.
-
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/text2.jpg">
-
-### Gallery Page
+### Play
 
 This is the second page of the website and showcases 17 images and 2 videos (linked to youtube). The images are arranged out in a grid area and each image when hovered over shows a text commenting on what the image relates to. I've also ensured when selecting the image this will open a new page allowing the user to view the image clearly. 
 
