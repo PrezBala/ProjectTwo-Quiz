@@ -19,9 +19,10 @@ The goal of this project is to entice viewers with an interest in the Marvel Uni
 - [Features](#features)
     + [Common Elements](#common-elements)
     + [Home Page](#home-page)
-    + [Gallery Page](#about-us-page)
-    + [Contact Us Page](#contact-us-page)
-    + [Submitted Page](#Submitted-page)
+    + [Play](#play-page)
+    + [Correct Answer](#Correct-Answer)
+    + [Incorrect Answer](#Incorrect-Answer)
+    + [Score and Question progress/tracker](#Score and Question progress/trackerpage)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
   * [Cross-Browser Testing](#cross-browser-testing)
@@ -114,7 +115,7 @@ When the user selects the incorrect answer, the question will go red and then co
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/incorrect.png">
 
-### Score and Question progress / tracker
+### Score and Question progress/tracker
 The question progress bar will keep a value on what question the user is up to and also show a progression bar on how far the user is from completion. The score on the right side will show the user that each correct answer awards 100 points whereas incorrect answers award 0, the values update as the user progresses through.
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/questionscore.png">
@@ -220,9 +221,6 @@ I encountered  bugs / issues during the creation stage of the music players with
 The issues i encountered with the music player initially was that the image failed to appear / rotate though after checking through all the reference points within the code i made a few amendments and the image pulled through correctly.
 
 On the smaller devices the music player / progress bar were unable to fit within the screen, though after referencing the correct codes for them within .css and through several tweaking and testing i got it to the stage i am content with.
-
-
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/smallphone.jpg">
 
 ## Improvements for the Site
 
