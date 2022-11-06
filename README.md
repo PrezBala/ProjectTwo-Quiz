@@ -54,7 +54,7 @@ The main purpose for this is to engage the user in a fun quiz based on the Marve
 
 ## User Goals
 ### First-time Users
-+ The user can easily identify the main purpose of the site through titles and named buttons
++ The user can easily identify the main purpose of the site through the headline title and named buttons
 + The user can easily navigate to the high score page and see a list of there own score including other players too
 + The user can select the rules button to open a pop up that will advise the user on what to do and also a brief history of Marvel Studios.
 
@@ -127,14 +127,14 @@ The question progress bar will keep a value on what question the user is up to a
 + CSS3 - Cascading Style Sheets used to apply consistent styles across all sections of the application.
 + Color Scheme - Using the Avenger themed colours, i've also taken inspiration from the below image.
 
-<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/questionscore.png">
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/avengercolours.jpg">
 
-+ Structure of the readme file was taken from the sample readme from Love Running: [LoveRunning](https://github.com/Code-Institute-Solutions/readme-template)
++ Structure of the readme file was taken from my Project one: [ProjectOne](https://github.com/PrezBala/ProjectOne)
 + Font Awesome - All icons (Social icons) were taken from Font Awesome
 + Git, Github & Gitpod - Used to continuously develop and deploy the incremental versions of the application.
 + Mockup - Assisted in creation of wireframe mockups.
 
-[Back to Table of Contents](https://github.com/PrezBala/ProjectOne#table-of-contents) 
+[Back to Table of Contents](https://github.com/PrezBala/ProjectTwo-Quiz#table-of-contents) 
 
 <hr>
 
