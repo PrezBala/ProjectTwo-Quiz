@@ -243,6 +243,7 @@
     }
      .modal{
          max-width:25rem;
+         transform: translate(-50%, -45% );
     }
      .btn{
          max-width:15rem;
@@ -264,6 +265,7 @@
     }
      .modal{
          max-width:30rem;
+
     }
      .btn{
          max-width:20rem;
@@ -287,8 +289,8 @@
          font-size: 1.2rem;
     }
      .modal{
-         transform: translate(-50%, -65% );
-         max-width:25rem;
+         transform: translate(-50%, -35% );
+         max-width:23rem;
     }
      #overlay {
          display: none;

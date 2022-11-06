@@ -167,7 +167,9 @@ Mobile Game Screen
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/mobilethree.jpg">
 
+Mobile Score Screen
 
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/mobiletwo.jpg">
 
 ## Validator Testing
 
