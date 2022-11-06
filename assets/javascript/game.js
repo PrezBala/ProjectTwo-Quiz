@@ -1,4 +1,3 @@
-/*jshint sub:true*/
 /* set const values start*/
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
@@ -101,7 +100,7 @@ let questions = [
 /* set let conditions end*/
 
 /* set score values and total questions start*/
-questionCounter;
+
 const SCORE_POINTS = 100;
 const MAX_QUESTIONS = 10;
 
@@ -154,11 +153,12 @@ choices.forEach(choice => {
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
-        setTimeout(() => 
+        setTimeout(() => {
 
-            selectedChoice.parentElement.classList.remove(classToApply));
+            selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
         }, 1000) ;
+    });
 });
 
 incrementScore = num => {
