@@ -98,6 +98,10 @@ Once play is selected the page will update to the game.html page where the user 
 
 I wanted to make the audio player for the game page to be more visually appealing and also to insert an image to reference the music that is playing i.e. Spiderman head for the spiderman theme, Ironman heads for Ironman 3 and also Avengers theme for the Avengers theme, the head also rotates which i thought would be fun to add. I added a function where the user can see a blue pop up appear with text imbedded so when the music starts playing, it shows what hero the theme refers to.
 
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/musicplayer.png>  
+
+Below when the play button is selected a pop up appears above showing the name and also the image within the music player rotates.
+
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/musicon.png">  
 
 ### Correct Answer
@@ -171,21 +175,26 @@ Mobile Score Screen
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/mobiletwo.jpg">
 
+Mobile Rules Screen
+
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/mobilefour.jpg">
+
 ## Validator Testing
 
 The HTML of the website was tested using the validator at [https://validator.w3.org/]. 
 
 I've been advised of the below errors and have now corrected all of them and the site passed the validator.
 
-+ Missing closing tag for images within Gallery.
-+ Footer link error for social links.
-+ Missing <"/div"> within contact us page.
++ Missing h1 closing tags within the game.html
++ Missing <"/div"> within the game.html page.
 
 <img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/htmlcheck.jpg">
 
 The CSS was tested using the validator at [https://jigsaw.w3.org/css-validator/] and no errors were reported.
 
 <img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/jigsaw.jpg">
+
+The Javascript was tested using the validator at [https://jshint.com/] no significant/critical errors appears after corrections.
 
 
 ## Performance Testing
@@ -208,7 +217,7 @@ During the finalizing process of developing the site, i soon thought of several 
 
 + Use higher resolution images especially for the header logo, as this counted towards my grading for the "lighthouse" check i've used in Google developer tools.
 
-[Back to Table of Contents](https://github.com/PrezBala/ProjectOne#table-of-contents) 
+[Back to Table of Contents](https://github.com/PrezBala/ProjectTwo-Quiz#table-of-contents) 
 
 <hr>
 
@@ -231,7 +240,7 @@ During the finalizing process of developing the site, i soon thought of several 
 4. Ran the file on a browser of my choice (i.e. Chrome)
 
 
-[Back to Table of Contents](https://github.com/PrezBala/ProjectOne#table-of-contents) 
+[Back to Table of Contents](https://github.com/PrezBala/ProjectTwo-Quiz#table-of-contents) 
 
 <hr>
 
@@ -265,4 +274,4 @@ and
 [Quora](https://www.quora.com/What-is-the-difference-between-a-samurai-and-a-shogun) 
 
 
-[Back to Table of Contents](https://github.com/PrezBala/ProjectOne#table-of-contents) 
+[Back to Table of Contents](https://github.com/PrezBala/ProjectTwo-Quiz#table-of-contents) 
