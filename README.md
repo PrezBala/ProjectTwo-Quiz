@@ -1,12 +1,12 @@
 # Marvel Studio Quiz - Project 2
 
-<img src= "https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/platforms.jpg">
+<img src= "https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/responsive.png">
 
-This website is a historical detail of the Shogun and the Samurai era. Detailing the hierarchy and armaments the warriors wore during the 12th century in Japan. The website viewers are also able to view a gallery showcasing the types of Samurai equipment used and also view two videos from youtube giving a brief explanation on the Samurai and Shogun titles.
+This website is a quiz on the Marvel Studio franchise. The quiz will test the knowledge on the user on some of the movies Marvel have created, highlighting if the user correctly answered or not. Each correct answer awards the users with a 100 points, an incorrect answer will not net any points for the user. After the 10 questions have been answered the user will see there total score and can save that score to a leaderboard against other users.
 
-The goal of this project is to entice viewers with an interest in the historical background of the Samurai era to a easily-navigational, aesthirical appealing, responsive website.
+The goal of this project is to entice viewers with an interest in the Marvel Universe, the user will answer Marvel themed questions and also able to listen to 1 of the 3 well known Marvel themes during play through.
 
-[Live link to website](https://prezbala.github.io/ProjectOne/index.html)
+[Live link to website](https://prezbala.github.io/ProjectTwo-Quiz/index.html)
 
 <hr>
 
@@ -50,26 +50,31 @@ The goal of this project is to entice viewers with an interest in the historical
 
 The main purpose for the website is to serve as a central hub of information on the Samurai / Shogun Era of Japan. Through informative text and images/videos this will entice the user further on the history of Japan. With several images showcasing the armaments and also a contact us page so if users have additional questions or any queries they can contact the website host.
 
+The main purpose for this is to engage the user in a fun quiz based on the Marvel franchise. Through a range of questions from each of the franchises movies this will eventually culminate to a score at the end, where the user can save there score against other players or to improve themselves.  
+
 ## User Goals
 ### First-time Users
-+ The user can easily find all the necessary information across the home page.
-+ The user can easily navigate to the Gallery page and view all images (which will open a seperate page when selected) and view videos on the gallery page to further explain Samurais and Shoguns.
-+ The user can easily find the contact methods if they need to ask business about extra information via the contact us page and also through the footer 
-+ The footer contains clear links to Facebook, Twitter, googlemail and Youtube which open in new tabs.
++ The user can easily identify the main purpose of the site through titles and named buttons
++ The user can easily navigate to the high score page and see a list of there own score including other players too
++ The user can select the rules button to open a pop up that will advise the user on what to do and also a brief history of Marvel Studios.
 
 ## Wireframes
 The following image shows a wireframe of each of the 4 pages of the site. These wireframes were created using [MockPlus](https://user.mockplus.com/signin?next=https://app.mockplus.com/app).
 
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/homepage1.jpg">
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/wireframe.png">
 
-[Back to Table of Contents](https://github.com/PrezBala/ProjectOne#table-of-contents) 
+Mobile phone wire frame also shown below
+
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/mobilewireframe.png">
+
+[Back to Table of Contents](https://github.com/PrezBala/ProjectTwo-Quiz#table-of-contents) 
 
 <hr>
 
 # Features
 
 ### Common Elements
-The common elements across all 3 pages are the Header and Footer sections.
+The common elements across all pages will be the background theme (Avengers - Iron man vs Captain America) and also the colour theme (Red,Blue and Green)
 
 + The Header- This sections appears across the top on all 3 pages and also contains a samurai helmet logo on the left. When selecting the helmet the user will return to the top of the homepage. The navigation menu is also positioned on the right. Both the logo and menu will respond to the screen sizes used. The navigation menu on certain phones will use a 'burger' style selection menu.
 
