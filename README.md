@@ -144,7 +144,7 @@ The question progress bar will keep a value on what question the user is up to a
 I have tested this website across the 3 main web browsers Google Chrome, Microsoft Edge & Safari (using my MAC). The site loaded consistently across all 3 with no issues detected.
 
 ## Compatibility Testing
-I tested the site across differing devices, using my old model iPhone 8, Dell Laptop and my iMac. I've used several different browsers and no issues were detected between any of these devices.
+I tested the site across differing devices, using my Samsung Galaxy S20 Ultra, Dell Laptop and my iMac. I've used several different browsers and no issues were detected between any of these devices.
 
 ## Responsiveness Testing
 -----------------------------
@@ -156,9 +156,20 @@ Throughout the process of creating the site, i've used Google Chromes Developer 
 -------------------------------
 
 ## User Testing
-I've ensured the navigation was very clearly accessible for all screen sizes (Mobiles and desktops) and that all information were clear to read with backgrounds that do not collide in colors. I also wanted to make the website aesthetically appealing with the scrolling images. 
 
-I've also ensured the Contact Us form correctly sends the user to the thankyou page once the data is submitted, and the form data validation works correctly. I attempted to submit without filling out each field, and was presented with a message to fill out the required data (First name, Last name, Email). When attempting to use a non-valid email address in the email field, the relevant error message appeared asking to use the correct format. I've also added a reset button in case the user wishes to clear all the data on the form and start again. 
+I wanted to ensure that the text and buttons are very clearly visible and also that the background image is centralised. After several adding several @media screen to accomodate different phone sizes i was happy how it appears on my personal phone (Samsung S20 Ultra). I ensured that on bigger screen the answer boxes within the game.html is stretched across the screen whereas on smaller devices (mobiles) it's considerably smaller and that the text is easily read.
+
+One of the biggest challenges was the media box to facilitate the 'spinning head' and for the text to appear easy to read, though after several tweaks and testing i got it to a stage where that i'm content with.
+
+Mobile Home screen
+
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/mobileone.jpg">
+
+Mobile Game Screen
+
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/mobilethree.jpg">
+
+
 
 ## Validator Testing
 
@@ -242,18 +253,6 @@ All image content for the project i found via google images.
 ## Fonts
 Just one font was used throughout the website, with varying weight for headings and body text.
 [Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker)
-
-## Colours
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/colourslots.png">
-
-I found the colour scheme using 'Coolors' and used some of the complimentary colour scheme for the site.
-
-[Coolors](https://coolors.co/)
-
-The colours used throughout the website are (and their Hexadecimal code):
-+ Dark Salmon #E45845
-+ Peach #FDBD78
-+ Dark Grey #312F33
 
 ## Icons
 The social media icons on the contact page were sourced from Font Awesome [https://fontawesome.com/]
