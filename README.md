@@ -22,7 +22,7 @@ The goal of this project is to entice viewers with an interest in the Marvel Uni
     + [Play](#play-page)
     + [Correct Answer](#Correct-Answer)
     + [Incorrect Answer](#Incorrect-Answer)
-    + [Score and Question progress/tracker](#Score and Question progress/trackerpage)
+    + [Score and Question progress tracker](#ScoreandQuestionprogress/trackerpage)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
   * [Cross-Browser Testing](#cross-browser-testing)
@@ -38,7 +38,6 @@ The goal of this project is to entice viewers with an interest in the Marvel Uni
   * [Code](#code)
   * [Images](#images)
   * [Fonts](#fonts)
-  * [Colours](#colours)
   * [Icons](#icons)
   * [Text Content](#text-content)
 <!-- TOC end -->
