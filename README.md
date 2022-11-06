@@ -22,7 +22,7 @@ The goal of this project is to entice viewers with an interest in the Marvel Uni
     + [Play](#play-page)
     + [Correct Answer](#Correct-Answer)
     + [Incorrect Answer](#Incorrect-Answer)
-    + [Score and Question progress tracker](#ScoreandQuestionprogress/trackerpage)
+    + [Score and Question progress tracker](#ScoreandQuestionprogresstracker)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
   * [Cross-Browser Testing](#cross-browser-testing)
@@ -114,7 +114,7 @@ When the user selects the incorrect answer, the question will go red and then co
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/incorrect.png">
 
-### Score and Question progress/tracker
+### Score and Question progress tracker
 The question progress bar will keep a value on what question the user is up to and also show a progression bar on how far the user is from completion. The score on the right side will show the user that each correct answer awards 100 points whereas incorrect answers award 0, the values update as the user progresses through.
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/questionscore.png">
