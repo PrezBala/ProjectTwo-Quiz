@@ -94,33 +94,41 @@ This is the main landing page which the user will be first presented with, with 
 
 ### Play
 
-This is the second page of the website and showcases 17 images and 2 videos (linked to youtube). The images are arranged out in a grid area and each image when hovered over shows a text commenting on what the image relates to. I've also ensured when selecting the image this will open a new page allowing the user to view the image clearly. 
+Once play is selected the page will update to the game.html page where the user can begin to answer questions and also keep track of there progress/score. I've also added a functionility for a music player  with a rotating image and playlist pop-up.
 
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/gallery1.jpg">
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/gamepage.png">
 
-Further down the Gallery page, i've added text using the same Japanese calligraphy style/color i've used on the other page for consistency. The text advises the user to view the videos linked directly to youtuve for further information on the 'Life of a Samurai' and a quick 'Shogunate Japan in 2 minutes".
+I wanted to make the audio player for the game page to be more visually appealing and also to insert an image to reference the music that is playing i.e. Spiderman head for the spiderman theme, Ironman heads for Ironman 3 and also Avengers theme for the Avengers theme, the head also rotates which i thought would be fun to add. I added a function where the user can see a blue pop up appear with text imbedded so when the music starts playing, it shows what hero the theme refers to.
 
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/gallery2.jpg">  
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/musicon.png">  
 
-### Contact us page
-The Contact us page contains a table which can be filled on the four sections. I ensured the background of the table matches the header/footer color for aesthetics and also the text to be easily visible. This page primary function is for users to submit any additional questions they may have on the historic events during the Shogun dynasty. 
+### Correct Answer
+When the user selects the correct answer, the question will go green and then commence to the next screen. The score will increase by 100 and the progress bar will increase.
 
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/contactus1.jpg">
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/correct.png">
 
-### Submitted page
-The submission page generates once the user has submitted there details across via the contact us form. This page also has a link within the text to take the user back to the home page.
+### Incorrect Answer
+When the user selects the incorrect answer, the question will go red and then commence to the next screen. The score will remain at the figure it was prior to selection and the progress bar will increase.
 
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/submitted.jpg">
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/incorrect.png">
+
+### Score and Question progress / tracker
+The question progress bar will keep a value on what question the user is up to and also show a progression bar on how far the user is from completion. The score on the right side will show the user that each correct answer awards 100 points whereas incorrect answers award 0, the values update as the user progresses through.
+
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/questionscore.png">
 
 <hr>
 
 # Technologies Used / CREDITS
 
 + HTML - Hypertext markup language used to give the website its overall structure and semantic value.
-+ Google Fonts - All fonts were taken from Google Fonts
-+ Bootstrap -  Aided in creation of header / footer style and setting the frameworks to be worked on. It was an efficeint way of creating the desired layout for my website. 
++ Google Fonts - Fredoka One font used.
++ Javascript - To ensure several funcationalities could be carried out i.e. Red/Green answer, HighScore storage etc..
 + CSS3 - Cascading Style Sheets used to apply consistent styles across all sections of the application.
-+ Color Scheme -  was taken from: [Coolors](https://coolors.co/)
++ Color Scheme - Using the Avenger themed colours, i've also taken inspiration from the below image.
+
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/questionscore.png">
+
 + Structure of the readme file was taken from the sample readme from Love Running: [LoveRunning](https://github.com/Code-Institute-Solutions/readme-template)
 + Font Awesome - All icons (Social icons) were taken from Font Awesome
 + Git, Github & Gitpod - Used to continuously develop and deploy the incremental versions of the application.
