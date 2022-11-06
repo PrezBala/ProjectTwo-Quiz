@@ -1,8 +1,7 @@
 body {
-    color:#fff
+    color:#fff 
 }
-
- /* Question selection boxes begin */
+/* Question selection boxes begin */
 .choice-container {
     display:flex;
     margin-bottom: 0.8rem;
@@ -12,55 +11,42 @@ body {
     font-size: 2rem;
     min-width: 80rem;
 }
-
 .choice-container:hover {
     cursor:pointer;
     box-shadow: 0 0.6rem 1.4rem 0 rgba(6,103,246,0.5);
     transform: scale(1.02);
     transform: transform 100ms;
 }
-
 .choice-prefix {
     padding: 2rem 2.5rem;
     color: white;
 }
-
 .choice-text {
     padding: 2rem;
     width: 100%;
 }
-
- /* Question selection boxes end */
-
- 
- /* Question selection boxes reactive response for correct or incorrect answer*/
-
+/* Question selection boxes end */
+/* Question selection boxes reactive response for correct or incorrect answer*/
 .correct {
     background: linear-gradient(32deg, rgba(11,223,36) 0%, rgb(41,232,111) 100%);
 }
-
 .incorrect {
     background: linear-gradient(32deg, rgba(230,29, 29,1) 0%, rgb(224,11,11,1) 100%);
 }
- /* Question selection boxes reactive response for correct or incorrect answer end*/
-
-
+/* Question selection boxes reactive response for correct or incorrect answer end*/
 /* Heads up Display */
 #hud {
     display: flex;
     justify-content: space-between;
 }
-
 .hud-prefix {
     text-align: center;
     font-size: 2rem;
 }
-
 .hud-main-text {
     text-align: center;
 }
 /* Heads up Display end*/
-
 /* Progress bar start*/
 #progressBar {
     width:20rem;
@@ -70,116 +56,81 @@ body {
     border-radius: 50px;
     overflow: hidden;
 }
-
 #progressBarFull {
-
     height: 100%;
     background:rgb(11,223,36);
     width: 0%;
 }
-
 /* Progress bar end*/
-
 /* question text above choices start*/
-
 #question{
     font-size: 2rem;
 }
-
 /* question text above choices end*/
-
-
 /* Media screen for Desktop, laptop, tablet and mobile*/
-
 @media screen and (min-width: 820px) and (max-width: 1780px){
-
     .choice-container{
         min-width:30rem;
         transform: scale(0.7);
-    }
-
+   }
     .choice-container:hover {
         transform: none;
         transform: transform 15ms;
-    }
-
+   }
     body {
         background-position: center center;
         background-attachment: fixed;
-        background-repeat: no-repeat; background-size: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
         background-image: url("../images/marvelwallpaper.jpg");
-    }
-
+   }
 }
-
-
 @media screen and (min-width: 802px) and (max-width: 1280px){
-    h1{    
+    h1{
         font-size: 1.5rem;
-    }
-
+   }
     .choice-container{
         min-width:30rem;
         transform: scale(0.7);
         font-size: 2rem;
-    }
-
+   }
     .choice-container:hover {
         transform: none;
         transform: transform 15ms;
-    }
-
+   }
     #progressText{
         font-size: 3rem;
-    }
-
+   }
 }
-
-
-
 @media screen and (min-width: 390px) and (max-width: 810px){
-
     h1 {
         font-size: 2rem;
-    }
-
+   }
     .choice-container{
         min-width:30rem;
         transform: scale(0.7);
         font-size: 2rem;
-    }
-
+   }
     .choice-container:hover {
         transform: none;
         transform: transform 15ms;
-    }
-
+   }
     #progressText{
         font-size: 2rem;
-    }
-
+   }
 }
-
 @media screen and (min-width: 320px) and (max-width: 480px){
-
     h1{
-
         font-size: 2.4rem;
-
-    }
-
+   }
     .choice-container{
         min-width: 1rem;
         font-size: 1rem;
         transform: scale(0.7);
-    }
-
-
+   }
     #question{
         font-size: 1.2rem;
         margin-left: 4.2rem;
-    }
-
-  }
-  
+   }
+}
 /* Media screen for Desktop, laptop, tablet and mobile end*/

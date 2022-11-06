@@ -1,46 +1,32 @@
 body {
     color: #fff;
 }
-
 /* Highscore list start*/
-
 #highScoresList {
     list-style: none;
     margin-bottom: 4rem;
     background-color:rgb(255, 255, 255);
     color: rgb(3, 3, 3);
 }
-
 .high-score {
     font-size: 2.8rem;
     margin-bottom: 0.5rem;
 }
-
 /* Highscore list end*/
-
 /* Media screen for different devices start*/
-
 @media screen and (min-width: 802px) and (max-width: 1280px){
-
-    .high-score{    
+    .high-score{
         font-size: 2.2rem;
-    }
-
+   }
 }
-
 @media screen and (min-width: 390px) and (max-width: 810px){
-
-    .high-score{    
+    .high-score{
         font-size: 2.2rem;
-    }
+   }
 }
-
 @media screen and (min-width: 320px) and (max-width: 480px){
-
-    .high-score{    
+    .high-score{
         font-size: 1rem;
-    }
-
+   }
 }
-
 /* Media screen for different devices end*/
