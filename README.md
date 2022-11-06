@@ -179,6 +179,16 @@ Mobile Rules Screen
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/mobilefour.jpg">
 
+I also tested the score system by playing the quiz and at the time scored 400, i wanted to ensure that score is also reflected within the High Scores html when the high scores button is selected in the home page.
+
+Score 400 below 
+
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/savescore.png">
+
+Checked High score page
+
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/scoresaved.png">
+
 ## Validator Testing
 
 The HTML of the website was tested using the validator at [https://validator.w3.org/]. 
@@ -199,13 +209,18 @@ The Javascript was tested using the validator at [https://jshint.com/] no signif
 
 ## Performance Testing
 
-I used the extension "Lighthouse" within Google Chrome Developer Tools and the results ranged from 90% - 93% which i am content with.
+I used the extension "Lighthouse" within Google Chrome Developer Tools and the results ranged from 93% - 97% which i am content with.
 
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/lighthouse.jpg">
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/lighthouse.png">
 
 ## Errors, Bugs or Issues During Development
 
-While testing several devices i encountered an issue with the contact us form. On smaller screened iphones i found the contact us page spread across the screen where the user is unable to read what the entry field correlates to. After several alterations and testing within CSS and adjusting the size i eventually got the table to a size i am happy with as shown below.
+I encountered  bugs / issues during the creation stage of the music players within the game.html / game.jss and also encountered an issue on smaller devices when attempting to configure smaller devices (laptops, ipads) to correctly display everything correctly.
+
+The issues i encountered with the music player initially was that the image failed to appear / rotate though after checking through all the reference points within the code i made a few amendments and the image pulled through correctly.
+
+On the smaller devices the music player / progress bar were unable to fit within the screen, though after referencing the correct codes for them within .css and through several tweaking and testing i got it to the stage i am content with.
+
 
 <img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/smallphone.jpg">
 
@@ -213,9 +228,11 @@ While testing several devices i encountered an issue with the contact us form. O
 
 During the finalizing process of developing the site, i soon thought of several different methods of how i could have improved this site and implement these ideas in the future for other projects:
 
-+ Improve the aesthetic for smaller devices when viewing the footer, initially i liked the "stacked" style of it but thought perhaps it might appear too clunky and should match how the site looks on larger screens.
++ More aesthetics for the main page and also during gameplay (i.e. animated wallpapers and also additional animations when selecting right or wrong answer)
 
-+ Use higher resolution images especially for the header logo, as this counted towards my grading for the "lighthouse" check i've used in Google developer tools.
++ An additional button during the quiz game play which can toggle on/off for button noises.
+
++ Improvements to the leaderboard table, to make it more aesthetically appealing.
 
 [Back to Table of Contents](https://github.com/PrezBala/ProjectTwo-Quiz#table-of-contents) 
 
@@ -234,7 +251,7 @@ During the finalizing process of developing the site, i soon thought of several 
 
 ### To test this on my local machine i followed the steps below.
 
-1. Navigate to the Github repo at [https://github.com/PrezBala/ProjectOne]
+1. Navigate to the Github repo at [https://github.com/PrezBala/ProjectTwo-Quiz]
 2. Click on the Code button, then Download ZIP.
 3. Extracted / Saved the ZIP to a secure location on my machine.
 4. Ran the file on a browser of my choice (i.e. Chrome)
@@ -248,12 +265,8 @@ During the finalizing process of developing the site, i soon thought of several 
 
 ## Code
 
-+ The code for the social icons/Header style was derived using Bootstrap frameworks
-+ The code for the hero image with animation on the homepage was taken and modified from the Love Running walkthrough project offered by Code Institute. I made small modifications to suit my project 
-+ I've looked at websites created by other students within Slack to see how they've structured there code and also there read me files which helped influence my own version.
-the student codes i took influence from were (https://github.com/jboyd8/milestone-project-1) , (https://github.com/kevinjohnkiely/la-rosa-restaurant-project-1/) and (https://github.com/BenD2525/the-rescuers-p1). 
++ Youtube - This platform has been incredibly useful and after watching countless videos i've learnt several different ways to code certain things i wouldnt have thought of before. The video here helped me create a modal for the rules pop-up [https://www.youtube.com/watch?v=MBaw_6cPmAw&t=146s] and especially Brian Designs channel [https://www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A/videos]
 + The Slack community. The help a student is able to receive from the other students is a really great tool to have.
-+ The code for the social icons/Header style was derived using Bootstrap frameworks
 + My Mentor Andre Aquilina who has provided me several tips/advise which has helped me in figuring out bugs i encountered during testing phases.
 
 ## Images
@@ -261,17 +274,13 @@ All image content for the project i found via google images.
 
 ## Fonts
 Just one font was used throughout the website, with varying weight for headings and body text.
-[Permanent Marker](https://fonts.google.com/specimen/Permanent+Marker)
+[Fredoka One](https://fonts.google.com/specimen/Fredoka+One)
 
 ## Icons
 The social media icons on the contact page were sourced from Font Awesome [https://fontawesome.com/]
 
 ## Text Content
-All text content across the application was composed by myself and also derived information from the links below.
-
-[Wikipedia](https://en.wikipedia.org/wiki/Shogun%27s_Samurai) 
-and
-[Quora](https://www.quora.com/What-is-the-difference-between-a-samurai-and-a-shogun) 
+All text content across the application was composed by myself.
 
 
 [Back to Table of Contents](https://github.com/PrezBala/ProjectTwo-Quiz#table-of-contents) 
