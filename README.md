@@ -48,8 +48,6 @@ The goal of this project is to entice viewers with an interest in the Marvel Uni
 # UX (User Experience)
 ## Website Owner Goals
 
-The main purpose for the website is to serve as a central hub of information on the Samurai / Shogun Era of Japan. Through informative text and images/videos this will entice the user further on the history of Japan. With several images showcasing the armaments and also a contact us page so if users have additional questions or any queries they can contact the website host.
-
 The main purpose for this is to engage the user in a fun quiz based on the Marvel franchise. Through a range of questions from each of the franchises movies this will eventually culminate to a score at the end, where the user can save there score against other players or to improve themselves.  
 
 ## User Goals
