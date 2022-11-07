@@ -215,7 +215,7 @@ Home page - I was content with the score given here.
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/lighthouse.png">
 
-Game page - In future i will consider using webP format for images to improve load times and scores.
+Game page - In future i will consider using webP format for images to improve load times and also i've added a aria-label within the music players buttons to improve accessibility score.
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/lighthouse2.png">
 
@@ -231,6 +231,20 @@ I encountered  bugs / issues during the creation stage of the music players with
 The issues i encountered with the music player initially was that the image failed to appear / rotate though after checking through all the reference points within the code i made a few amendments and the image pulled through correctly.
 
 On the smaller devices the music player / progress bar were unable to fit within the screen, though after referencing the correct codes for them within .css and through several tweaking and testing i got it to the stage i am content with.
+
+I've also encountered two errors after deploying the site to live.
+
+1st error was in regards to the background wallpaper, i found the image was fitted to the screen correctly, as shown below.
+
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/error1.png">
+
+This issue was corrected within style.css by adding a reference for body and adding a "no-repeat and cover" tag.
+
+The 2nd error is a "error 404" displaying when attempting to save the high score as shown below.
+
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/error2.png">
+
+
 
 ## Improvements for the Site
 
