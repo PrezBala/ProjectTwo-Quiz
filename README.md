@@ -246,6 +246,7 @@ The 2nd error is a "error 404" displaying when attempting to save the high score
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/error2.png">
 
+This was corrected within the end.js by adding a reference to the index.html to the 'location assign'.
 
 
 ## Improvements for the Site
