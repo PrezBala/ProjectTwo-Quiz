@@ -19,7 +19,7 @@ The goal of this project is to entice viewers with an interest in the Marvel Uni
 - [Features](#features)
     + [Common Elements](#common-elements)
     + [Home Page](#home-page)
-    + [Play](#play-page)
+    + [Play](#play)
     + [Correct Answer](#Correct-Answer)
     + [Incorrect Answer](#Incorrect-Answer)
     + [Score and Question progress tracker](#ScoreandQuestionprogresstracker)
@@ -135,6 +135,8 @@ The question progress bar will keep a value on what question the user is up to a
 + Font Awesome - All icons (Social icons) were taken from Font Awesome
 + Git, Github & Gitpod - Used to continuously develop and deploy the incremental versions of the application.
 + Mockup - Assisted in creation of wireframe mockups.
++ PicResize - Assisted in adjusting size of images.
+
 
 [Back to Table of Contents](https://github.com/PrezBala/ProjectTwo-Quiz#table-of-contents) 
 
@@ -232,9 +234,9 @@ The issues i encountered with the music player initially was that the image fail
 
 On the smaller devices the music player / progress bar were unable to fit within the screen, though after referencing the correct codes for them within .css and through several tweaking and testing i got it to the stage i am content with.
 
-I've also encountered two errors after deploying the site to live.
+I've also encountered two errors after deploying the site to live:
 
-1st error was in regards to the background wallpaper, i found the image was fitted to the screen correctly, as shown below.
+1st error was in regards to the background wallpaper, i found the image was fitted to the screen incorrectly, as shown below.
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/error1.png">
 
@@ -269,7 +271,7 @@ During the finalizing process of developing the site, i soon thought of several 
 3. I clicked on the green Gitpod button (using browser extensions on Google Chrome)
 4. This created my development environment on Gitpod where I began to push the incremental changes to the live hosted site.
 5. I navigated to the Github repo settings tab and found the Github pages dedicated section.
-6. Within the Source dropdown menu I clicked on "main", and then "Save". Live link is available here [https://prezbala.github.io/ProjectOne/index.html]
+6. Within the Source dropdown menu I clicked on "main", and then "Save". Live link is available here [https://prezbala.github.io/ProjectTwo-Quiz/index.html]
 
 ### To test this on my local machine i followed the steps below.
 
