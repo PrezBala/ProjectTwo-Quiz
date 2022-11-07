@@ -35,8 +35,7 @@ saveHighScore = e => {
 
     highScores.splice(5);
 
-    localStorage.setItem('highScores', JSON.stringify(highScores));
-    window.location.assign('https://prezbala.github.io/ProjectTwo-Quiz/index.html');
+    window.localStorage.clear(); //try this to clear all local storage
 
     
 };
