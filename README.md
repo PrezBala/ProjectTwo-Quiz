@@ -209,9 +209,20 @@ The Javascript was tested using the validator at [https://jshint.com/] no signif
 
 ## Performance Testing
 
-I used the extension "Lighthouse" within Google Chrome Developer Tools and the results ranged from 93% - 97% which i am content with.
+I used the extension "Lighthouse" within Google Chrome Developer Tools and the results ranged as show below.
+
+Home page - I was content with the score given here.
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/lighthouse.png">
+
+Game page - In future i will consider using webP format for images to improve load times and scores.
+
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/lighthouse2.png">
+
+High score page - I was content with the score given here.
+
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/lighthouse3.png">
+
 
 ## Errors, Bugs or Issues During Development
 
