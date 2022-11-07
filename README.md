@@ -98,7 +98,7 @@ Once play is selected the page will update to the game.html page where the user 
 
 I wanted to make the audio player for the game page to be more visually appealing and also to insert an image to reference the music that is playing i.e. Spiderman head for the spiderman theme, Ironman heads for Ironman 3 and also Avengers theme for the Avengers theme, the head also rotates which i thought would be fun to add. I added a function where the user can see a blue pop up appear with text imbedded so when the music starts playing, it shows what hero the theme refers to.
 
-<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/musicplayer.png>  
+<img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/musicplayer.png">  
 
 Below when the play button is selected a pop up appears above showing the name and also the image within the music player rotates.
 
@@ -285,7 +285,7 @@ Just one font was used throughout the website, with varying weight for headings 
 [Fredoka One](https://fonts.google.com/specimen/Fredoka+One)
 
 ## Icons
-The social media icons on the contact page were sourced from Font Awesome [https://fontawesome.com/]
+The Media player icons on the game page were sourced from Font Awesome [https://fontawesome.com/]
 
 ## Text Content
 All text content across the application was composed by myself.
