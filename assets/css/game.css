@@ -15,7 +15,7 @@ body {
     cursor:pointer;
     box-shadow: 0 0.6rem 1.4rem 0 rgba(6,103,246,0.5);
     transform: scale(1.02);
-    transform: transform 100ms;
+
 }
 .choice-prefix {
     padding: 2rem 2.5rem;
@@ -75,7 +75,7 @@ body {
    }
     .choice-container:hover {
         transform: none;
-        transform: transform 15ms;
+
    }
     body {
         background-position: center center;
@@ -96,7 +96,7 @@ body {
    }
     .choice-container:hover {
         transform: none;
-        transform: transform 15ms;
+
    }
     #progressText{
         font-size: 3rem;
@@ -113,7 +113,7 @@ body {
    }
     .choice-container:hover {
         transform: none;
-        transform: transform 15ms;
+
    }
     #progressText{
         font-size: 2rem;

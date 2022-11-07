@@ -32,7 +32,6 @@ body {
 }
  h3 {
      font-size: 1rem;
-     font-style: arial;
      color: blue 
 }
 /* define font characteristics end*/
@@ -48,7 +47,7 @@ body {
      display: flex;
      justify-content: center;
      align-items: center;
-     max-width: 80 rem;
+     max-width: 80rem;
      margin: 0 auto;
      padding: 2rem;
 }

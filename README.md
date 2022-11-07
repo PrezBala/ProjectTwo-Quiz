@@ -29,7 +29,7 @@ The goal of this project is to entice viewers with an interest in the Marvel Uni
   * [Compatibility Testing](#compatibility-testing)
   * [Responsiveness Testing](#responsiveness-testing)
   * [User Testing](#user-testing)
-  * [Validator Testing](#validator-testing)
+  * [Validator Testing](#Validator-Testing)
   * [Performance Testing](#performance-testing)
   * [Errors, Bugs or Issues During Development](#errors-bugs-or-issues-during-development)
   * [Improvements for the Site](#Improvements-for-the-site)
@@ -200,13 +200,15 @@ I've been advised of the below errors and have now corrected all of them and the
 + Missing h1 closing tags within the game.html
 + Missing <"/div"> within the game.html page.
 
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/htmlcheck.jpg">
+<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/htmlcheck.png">
 
 The CSS was tested using the validator at [https://jigsaw.w3.org/css-validator/] and no errors were reported.
 
-<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/jigsaw.jpg">
+<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/csscheck.png">
 
-The Javascript was tested using the validator at [https://jshint.com/] no significant/critical errors appears after corrections.
+The Javascript was tested using the validator at [https://jshint.com/] no errors once corrections were made (corrections were to add ';')
+
+<img src="https://github.com/PrezBala/ProjectOne/blob/main/wireframescreenshots/javacheck.png">
 
 
 ## Performance Testing
