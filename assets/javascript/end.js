@@ -38,10 +38,6 @@ saveHighScore = e => {
     localStorage.setItem('highScores', JSON.stringify(highScores));
     window.location.assign('https://prezbala.github.io/ProjectTwo-Quiz/index.html');
 
-    /* to be used when developer wishes to clear all local storage
-    window.localStorage.clear(); */
-
-
 };
 
 /* final highscore save functionaility end*/
