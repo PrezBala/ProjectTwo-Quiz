@@ -200,13 +200,19 @@ I've been advised of the below errors and have now corrected all of them and the
 + Missing h1 closing tags within the game.html
 + Missing <"/div"> within the game.html page.
 
+I've checked each html page under the checker and all passed.
+
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/htmlcheck.png">
 
 The CSS was tested using the validator at [https://jigsaw.w3.org/css-validator/] and no errors were reported.
 
+I've checked each CSS under the checker and all passed.
+
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/csscheck.png">
 
 The Javascript was tested using the validator at [https://jshint.com/] no errors once corrections were made (corrections were to add ';')
+
+I've checked each Javascript under the checker and all passed.
 
 <img src="https://github.com/PrezBala/ProjectTwo-Quiz/blob/main/assets/readmeimages/javacheck.png">
 
